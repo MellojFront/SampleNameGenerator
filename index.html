@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Name Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">Sample Name Generator</h1>
+            <p class="subtitle">Create professional sample names with style</p>
+        </div>
+
+        <div id="generatorForm">
+            <div class="form-grid">
+                <div class="input-group">
+                    <label class="label">Sample Type</label>
+                    <select class="select" id="sampleType">
+                        <option value="">Choose type...</option>
+                        <optgroup label="Tonal Instruments">
+                            <option value="Bass">Bass</option>
+                            <option value="Lead">Lead</option>
+                            <option value="Pluck">Pluck</option>
+                            <option value="Synth">Synth</option>
+                            <option value="Pad">Pad</option>
+                            <option value="Keys">Keys</option>
+                        </optgroup>
+                        <optgroup label="Percussion">
+                            <option value="Kick">Kick</option>
+                            <option value="Snare">Snare</option>
+                            <option value="HiHat">Hi-Hat</option>
+                            <option value="OpenHat">Open Hat</option>
+                            <option value="Perc">Percussion</option>
+                        </optgroup>
+                        <optgroup label="Other">
+                            <option value="Loop">Loop</option>
+                            <option value="OneShot">One Shot</option>
+                            <option value="Vocal">Vocal</option>
+                            <option value="FX">FX</option>
+                        </optgroup>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label class="label">Genre/Style</label>
+                    <select class="select" id="genre">
+                        <option value="">Auto-detect from BPM</option>
+                        <option value="Techno">Techno</option>
+                        <option value="House">House</option>
+                        <option value="Trance">Trance</option>
+                        <option value="DnB">Drum & Bass</option>
+                        <option value="Dubstep">Dubstep</option>
+                        <option value="Trap">Trap</option>
+                        <option value="Ambient">Ambient</option>
+                        <option value="Industrial">Industrial</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label class="label">BPM</label>
+                    <input type="number" class="input" id="bpm" placeholder="120" min="60" max="200">
+                </div>
+
+                <div class="input-group">
+                    <label class="label">Key</label>
+                    <select class="select" id="key">
+                        <option value="">No key</option>
+                        <option value="C">C</option>
+                        <option value="C#">C#</option>
+                        <option value="D">D</option>
+                        <option value="D#">D#</option>
+                        <option value="E">E</option>
+                        <option value="F">F</option>
+                        <option value="F#">F#</option>
+                        <option value="G">G</option>
+                        <option value="G#">G#</option>
+                        <option value="A">A</option>
+                        <option value="A#">A#</option>
+                        <option value="B">B</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label class="label">Keywords</label>
+                    <input type="text" class="input" id="keywords" placeholder="#dark #industrial #bass">
+                </div>
+            </div>
+
+            <div class="options-group">
+                <div class="option-item">
+                    <input type="radio" name="scale" value="none" id="scaleNone" class="radio" checked>
+                    <label for="scaleNone">No Scale</label>
+                </div>
+                <div class="option-item">
+                    <input type="radio" name="scale" value="major" id="scaleMajor" class="radio">
+                    <label for="scaleMajor">Major</label>
+                </div>
+                <div class="option-item">
+                    <input type="radio" name="scale" value="minor" id="scaleMinor" class="radio">
+                    <label for="scaleMinor">Minor</label>
+                </div>
+                <div class="option-item">
+                    <input type="checkbox" id="enableNumbering" class="checkbox">
+                    <label for="enableNumbering">Enable Numbering</label>
+                </div>
+            </div>
+
+            <div style="text-align: center;">
+                <button type="button" class="button" id="generateBtn">🎵 Generate Name</button>
+                <button type="button" class="button button-secondary" id="clearResults">🗑️ Clear All</button>
+            </div>
+        </div>
+
+        <div class="results">
+            <div class="results-header">
+                <h3 class="results-title">Generated Names</h3>
+                <span class="results-count" id="resultsCount">0</span>
+            </div>
+            <div class="results-list" id="resultsList">
+                <div class="empty-state">
+                    <div class="empty-state-icon">🎼</div>
+                    <p>No samples generated yet. Fill the form above and click generate!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
