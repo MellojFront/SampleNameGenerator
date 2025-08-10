@@ -88,20 +88,22 @@
 
 ### 🎯 Example Output
 
-<div style="background: #f8f9ff; border-radius: 12px; padding: 20px; margin: 20px 0;">
-  <div style="background: white; padding: 15px 20px; margin-bottom: 10px; border-radius: 8px; border-left: 4px solid #667eea; font-family: 'JetBrains Mono', 'Courier New', monospace; position: relative;">
-    <span>Bass_Deep_Heavy_Techno_128BPM_Am_minor_01</span>
-    <span style="position: absolute; right: 15px; top: 50%; transform: translateY(-50%); color: #666; font-size: 0.8rem;">Click to copy</span>
-  </div>
-  <div style="background: white; padding: 15px 20px; margin-bottom: 10px; border-radius: 8px; border-left: 4px solid #667eea; font-family: 'JetBrains Mono', 'Courier New', monospace; position: relative;">
-    <span>Lead_Sharp_Cutting_Trance_138BPM</span>
-    <span style="position: absolute; right: 15px; top: 50%; transform: translateY(-50%); color: #666; font-size: 0.8rem;">Click to copy</span>
-  </div>
-  <div style="background: white; padding: 15px 20px; border-radius: 8px; border-left: 4px solid #667eea; font-family: 'JetBrains Mono', 'Courier New', monospace; position: relative;">
-    <span>Kick_Punchy_Industrial_140BPM</span>
-    <span style="position: absolute; right: 15px; top: 50%; transform: translateY(-50%); color: #666; font-size: 0.8rem;">Click to copy</span>
-  </div>
+<div align="center">
+
+![enable number](screenshots/enable-number.png)
+
+*добавление порядкового номера для названия семпла*
+
 </div>
+
+<div align="center">
+
+![enable number](screenshots/enable-key.png)
+
+*добавление ключа тональности и основного лада `minor/major`*
+
+</div>
+
 
 ## 🏷️ Keywords System
 
@@ -122,27 +124,22 @@ dark industrial bass
 
 ### 🎨 Категории Keywords
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 20px 0;">
+<div align="center">
 
-<div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: white; padding: 20px; border-radius: 12px;">
-<h4 style="margin-bottom: 15px; color: #fff;">🌑 Mood & Atmosphere</h4>
-<div style="margin-bottom: 8px;"><code style="background: rgba(255,255,255,0.1); padding: 3px 6px; border-radius: 4px;">#dark</code> → Industrial, Sinister, Haunting</div>
-<div style="margin-bottom: 8px;"><code style="background: rgba(255,255,255,0.1); padding: 3px 6px; border-radius: 4px;">#ambient</code> → Atmospheric, Floating, Dreamy</div>
-<div style="margin-bottom: 8px;"><code style="background: rgba(255,255,255,0.1); padding: 3px 6px; border-radius: 4px;">#hard</code> → Aggressive, Brutal, Intense</div>
-<div style="margin-bottom: 8px;"><code style="background: rgba(255,255,255,0.1); padding: 3px 6px; border-radius: 4px;">#soft</code> → Gentle, Smooth, Mellow</div>
-<div style="margin-bottom: 8px;"><code style="background: rgba(255,255,255,0.1); padding: 3px 6px; border-radius: 4px;">#melodic</code> → Ethereal, Emotional, Progressive</div>
-</div>
+![keywords-demo-mood](screenshots/keywords-demo-mood.png)
 
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 12px;">
-<h4 style="margin-bottom: 15px; color: #fff;">🔧 Technical & Style</h4>
-<div style="margin-bottom: 8px;"><code style="background: rgba(255,255,255,0.1); padding: 3px 6px; border-radius: 4px;">#industrial</code> → Mechanical, Raw, Metallic</div>
-<div style="margin-bottom: 8px;"><code style="background: rgba(255,255,255,0.1); padding: 3px 6px; border-radius: 4px;">#vintage</code> → Retro, Classic, Analog</div>
-<div style="margin-bottom: 8px;"><code style="background: rgba(255,255,255,0.1); padding: 3px 6px; border-radius: 4px;">#modern</code> → Digital, Clean, Contemporary</div>
-<div style="margin-bottom: 8px;"><code style="background: rgba(255,255,255,0.1); padding: 3px 6px; border-radius: 4px;">#glitch</code> → Broken, Stuttered, Fragmented</div>
-<div style="margin-bottom: 8px;"><code style="background: rgba(255,255,255,0.1); padding: 3px 6px; border-radius: 4px;">#organic</code> → Natural, Live, Human</div>
-</div>
+*основные категории в `mood`*
 
 </div>
+
+<div align="center">
+
+![keywords-demo-technical](screenshots/keywords-demo-technical.png)
+
+*основные категории в `technical`*
+
+</div>
+
 
 ### 🎛️ Instrument-Specific Keywords
 
@@ -192,43 +189,12 @@ dark industrial bass
 
 ### 🎭 Creative Combinations
 
-<div style="overflow-x: auto; margin: 20px 0;">
-<table style="width: 100%; border-collapse: collapse; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-<thead>
-<tr style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
-<th style="padding: 15px; text-align: left; font-weight: 600;">Combination</th>
-<th style="padding: 15px; text-align: left; font-weight: 600;">Result Style</th>
-<th style="padding: 15px; text-align: left; font-weight: 600;">Best For</th>
-</tr>
-</thead>
-<tbody>
-<tr style="border-bottom: 1px solid #e1e5e9;">
-<td style="padding: 12px; font-family: 'JetBrains Mono', monospace; background: #f8f9ff;"><code>#dark #industrial</code></td>
-<td style="padding: 12px;">Sinister, Mechanical, Raw</td>
-<td style="padding: 12px;">Techno, Industrial</td>
-</tr>
-<tr style="border-bottom: 1px solid #e1e5e9;">
-<td style="padding: 12px; font-family: 'JetBrains Mono', monospace; background: #f8f9ff;"><code>#vintage #warm</code></td>
-<td style="padding: 12px;">Retro, Analog, Classic</td>
-<td style="padding: 12px;">Lo-Fi, House</td>
-</tr>
-<tr style="border-bottom: 1px solid #e1e5e9;">
-<td style="padding: 12px; font-family: 'JetBrains Mono', monospace; background: #f8f9ff;"><code>#acid #303</code></td>
-<td style="padding: 12px;">Squelchy, Resonant, TB</td>
-<td style="padding: 12px;">Acid House/Techno</td>
-</tr>
-<tr style="border-bottom: 1px solid #e1e5e9;">
-<td style="padding: 12px; font-family: 'JetBrains Mono', monospace; background: #f8f9ff;"><code>#ambient #melodic</code></td>
-<td style="padding: 12px;">Atmospheric, Emotional, Dreamy</td>
-<td style="padding: 12px;">Trance, Ambient</td>
-</tr>
-<tr>
-<td style="padding: 12px; font-family: 'JetBrains Mono', monospace; background: #f8f9ff;"><code>#glitch #modern</code></td>
-<td style="padding: 12px;">Broken, Digital, Stuttered</td>
-<td style="padding: 12px;">IDM, Experimental</td>
-</tr>
-</tbody>
-</table>
+<div align="center">
+
+![creative-comb](screenshots/creative-comb.png)
+
+*некоторые комбинации, которые вам помогут быстро найти подходящее название*
+
 </div>
 
 ## 🎵 Sample Types Guide
@@ -259,28 +225,23 @@ dark industrial bass
 ### 🔢 Numbering System
 Включите "Enable Numbering" для создания серий:
 
-<div style="background: #f8f9ff; border-radius: 12px; padding: 20px; margin: 15px 0;">
-  <div style="background: white; padding: 12px 16px; margin-bottom: 8px; border-radius: 8px; border-left: 4px solid #28a745; font-family: 'JetBrains Mono', monospace; font-size: 0.9rem;">
-    Bass_Deep_Techno_128BPM_01
-  </div>
-  <div style="background: white; padding: 12px 16px; margin-bottom: 8px; border-radius: 8px; border-left: 4px solid #28a745; font-family: 'JetBrains Mono', monospace; font-size: 0.9rem;">
-    Bass_Deep_Techno_128BPM_02
-  </div>
-  <div style="background: white; padding: 12px 16px; border-radius: 8px; border-left: 4px solid #28a745; font-family: 'JetBrains Mono', monospace; font-size: 0.9rem;">
-    Bass_Deep_Techno_128BPM_03
-  </div>
+<div align="center">
+
+![enable number](screenshots/add-numbering.png)
+
+*добавление порядкового номера для названия семпла*
+
 </div>
 
 ### 🎼 Key & Scale Detection
 Добавьте тональность для более точной категоризации:
 
-<div style="background: #f8f9ff; border-radius: 12px; padding: 20px; margin: 15px 0;">
-  <div style="background: white; padding: 12px 16px; margin-bottom: 8px; border-radius: 8px; border-left: 4px solid #667eea; font-family: 'JetBrains Mono', monospace; font-size: 0.9rem;">
-    Lead_Sharp_Trance_138BPM_Am_minor
-  </div>
-  <div style="background: white; padding: 12px 16px; border-radius: 8px; border-left: 4px solid #667eea; font-family: 'JetBrains Mono', monospace; font-size: 0.9rem;">
-    Pad_Warm_Ambient_90BPM_C_major
-  </div>
+<div align="center">
+
+![enable number](screenshots/add-tonal-key.png)
+
+*добавление ключа тональности и основного лада `minor/major`*
+
 </div>
 
 ### 🎵 BPM-Based Genre Detection
